@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OMM-Visualizer", "OMM-Visualizer\OMM-Visualizer.vcxproj", "{C85DC7CA-6541-477A-80E6-C3865171E692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C85DC7CA-6541-477A-80E6-C3865171E692}.Debug|x64.ActiveCfg = Debug|x64
+		{C85DC7CA-6541-477A-80E6-C3865171E692}.Debug|x64.Build.0 = Debug|x64
+		{C85DC7CA-6541-477A-80E6-C3865171E692}.Release|x64.ActiveCfg = Release|x64
+		{C85DC7CA-6541-477A-80E6-C3865171E692}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86A29A6D-DD7D-45F9-99EC-D0232F549419}
+	EndGlobalSection
+EndGlobal
