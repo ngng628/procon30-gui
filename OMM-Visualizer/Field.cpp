@@ -33,13 +33,13 @@ void Field::draw() const
 			if (tiled[y][x] == m_redID)
 			{
 				Rect dot(margin + x * GridSize, margin + y * GridSize, GridSize);
-				dot.draw(Palette::Red).drawFrame(1.0, 1.0, Palette::Gray);
+				dot.draw(Color(U"#E2421F")).drawFrame(1.0, 1.0, Palette::Gray);
 				TextureAsset(U"Cat").resized(GridSize).drawAt(margin + x * GridSize + GridSize / 2, margin + y * GridSize + GridSize / 2, Alpha(130));
 			}
 			else if (tiled[y][x] == m_blueID)
 			{
 				Rect dot(margin + x * GridSize, margin + y * GridSize, GridSize);
-				dot.draw(Palette::Blue).drawFrame(1.0, 1.0, Palette::Gray);
+				dot.draw(Color(U"#205EE3")).drawFrame(1.0, 1.0, Palette::Gray);
 				TextureAsset(U"Rabbit").resized(GridSize).drawAt(margin + x * GridSize + GridSize / 2, margin + y * GridSize + GridSize / 2, Alpha(130));
 			}
 			else
