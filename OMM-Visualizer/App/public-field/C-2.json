@@ -65,7 +65,7 @@
           "y": 10
         }
       ],
-      "tilePoint": -14,
+      "tilepoint": -14,
       "areapoint": 0
     },
     {
@@ -97,7 +97,7 @@
           "y": 10
         }
       ],
-      "tilePoint": -14,
+      "tilepoint": -14,
       "areapoint": 0
     }
   ],
