@@ -1,4 +1,5 @@
 # pragma once
+# include "Field.h"
 
 class ScoreBar
 {
@@ -13,6 +14,6 @@ public:
 	explicit ScoreBar(const RectF& rect)
 		: m_rect(rect) {}
 
-	void draw(const Font& font, int32 red_score, int32 blue_score) const;
+	void draw(const Font& font, const Field& field) const;
 };
 

@@ -2,7 +2,7 @@
 
 namespace AssetLoader
 {
-	bool Audio();
-	bool Texture();
-	bool Font();
+	bool Audios();
+	bool Textures();
+	bool Fonts();
 }

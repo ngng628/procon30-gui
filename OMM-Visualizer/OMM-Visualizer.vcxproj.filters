@@ -91,6 +91,9 @@
     <Filter Include="Precompile Header">
       <UniqueIdentifier>{c3b322cf-d9ac-4d04-b535-98f66083f69a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Solver">
+      <UniqueIdentifier>{6ff5a3b8-fe95-431c-acf9-e5b5b982ee04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -124,6 +127,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ScoreBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy.cpp">
+      <Filter>Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -413,6 +425,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ScoreBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Greedy.h">
+      <Filter>Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
