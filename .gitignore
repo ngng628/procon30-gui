@@ -371,3 +371,11 @@ cmake_install.cmake
 build.ninja
 rules.ninja
 
+## Asset
+asset/
+*.mp3
+*.mp4
+*.png
+*.jpg
+*.pptx
+
