@@ -65,8 +65,8 @@
           "y": 10
         }
       ],
-      "tilepoint": -14,
-      "areapoint": 0
+      "tilePoint": -14,
+      "areaPoint": 0
     },
     {
       "teamID": 2,
@@ -97,8 +97,8 @@
           "y": 10
         }
       ],
-      "tilepoint": -14,
-      "areapoint": 0
+      "tilePoint": -14,
+      "areaPoint": 0
     }
   ],
   "actions": []
