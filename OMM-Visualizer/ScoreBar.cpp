@@ -9,7 +9,7 @@ void ScoreBar::draw(const Font& font, const Field& field) const
 	m_rect.draw(Color(U"#205EE3"));
 	m_rect.drawFrame(0, 3);
 
-	auto calcRate = [&](int32 red, int32 blue)
+	auto calcRate = [=](int32 red, int32 blue)
 	{
 		if (red < 0 and blue < 0)
 		{

@@ -14,4 +14,4 @@ struct Action
 /// <summary>
 /// Action‚ÌArray”z—ñ‚ðJsonŒ`Ž®‚Ì•¶Žš—ñ‚É•ÏŠ·‚µ‚Ü‚·
 /// </summary>
-// String ToJson(const Array<Action>& actions);
+String ToJson(const Array<Action>& actions);

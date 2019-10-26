@@ -13,3 +13,7 @@ struct Match
     int32 turns;
 };
 
+/// <summary>
+/// Match‚ðJsonŒ`Ž®‚Ì•¶Žš—ñ‚É•ÏŠ·‚µ‚Ü‚·
+/// </summary>
+String ToJson(const Array<Match>& matches);

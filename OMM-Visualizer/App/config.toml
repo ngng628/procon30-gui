@@ -1,10 +1,10 @@
-
 #
 # のちのちはここに各設定に対する設定をすべて配列としてためておく
 #
+
 [Match]
 turnMillis = 10000
-turns = 40
+turns = 50
 
 [Field]
-name = "public-field/B-2.json"
+name = "public-field/C-2.json"

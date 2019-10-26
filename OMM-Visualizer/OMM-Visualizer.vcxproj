@@ -108,18 +108,25 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Act.cpp" />
     <ClCompile Include="Action.cpp" />
     <ClCompile Include="Agent.cpp" />
     <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="beamsearch2.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Command.cpp" />
     <ClCompile Include="Field.cpp" />
+    <ClCompile Include="FieldForSearch.cpp" />
     <ClCompile Include="FieldReader.cpp" />
     <ClCompile Include="Greedy.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Match.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="ScoreBar.cpp" />
     <ClCompile Include="ScoreCalculate.cpp" />
     <ClCompile Include="Simulator.cpp" />
+    <ClCompile Include="State2.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
@@ -245,18 +252,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Act.h" />
     <ClInclude Include="Action.h" />
     <ClInclude Include="Agent.h" />
+    <ClInclude Include="AgentType.h" />
     <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="beamsearch2.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="Command.h" />
     <ClInclude Include="Field.h" />
+    <ClInclude Include="FieldForSearch.h" />
     <ClInclude Include="FieldReader.h" />
     <ClInclude Include="Greedy.h" />
     <ClInclude Include="Match.h" />
     <ClInclude Include="picojson\picojson.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="ScoreBar.h" />
     <ClInclude Include="ScoreCalculate.h" />
     <ClInclude Include="Simulator.h" />
+    <ClInclude Include="State2.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Team.h" />
   </ItemGroup>
